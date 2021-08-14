@@ -2,7 +2,7 @@
 //........................timer.........................
 
 document.addEventListener('DOMContentLoaded', function() {
-	const lastDate = new Date('August 28 2021 00:00:00');
+	const lastDate = new Date('November 18 2021 00:00:00');
 
 	const daysVal = document.querySelector('.value-day');
 	const hoursVal = document.querySelector('.value-hours');
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		if (seconds < 10) {
 			secondsVal.textContent = `0${seconds}`;
 		}
-
+		// функция склонения: по необходимости меняем на русский текст
 		daysText.textContent = declOfNum(days, ['day', 'days', 'days']);	
 		hoursText.textContent = declOfNum(hours, ['hour', 'hours', 'hours']);
 		minutesText.textContent = declOfNum(minutes, ['minute', 'minutes', 'minutes']);
