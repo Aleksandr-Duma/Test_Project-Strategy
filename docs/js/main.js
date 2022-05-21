@@ -2,7 +2,7 @@
 //........................timer.........................
 
 document.addEventListener('DOMContentLoaded', function() {
-	const lastDate = new Date('November 18 2021 00:00:00');
+	const lastDate = new Date('November 18 2022 00:00:00');
 
 	const daysVal = document.querySelector('.value-day');
 	const hoursVal = document.querySelector('.value-hours');
